@@ -1,6 +1,6 @@
 # Python-Sales-Analysis-using-Pandas
 Tasks during this section include:
-*Drop NaN values from DataFrame
+*Drop NaN values from DataFrame*
 *Removing rows based on a condition
 *Change the type of columns (to_numeric, to_datetime, astype)
 *Once we have cleaned up our data a bit, we move the data exploration section. 
