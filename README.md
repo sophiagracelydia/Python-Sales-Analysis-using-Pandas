@@ -1,13 +1,13 @@
 ## 1. To print the dataset in match_data frame
-### `print(match_data.head()`
+### `print(match_data.head())`
 ![image](https://user-images.githubusercontent.com/52828894/151186133-3eb2c49f-29cd-419b-a46e-68fc4e91096c.png)
 
 ## 2. To print the dataset in ball_data frame
-### `print(ball_data.head()`
+### `print(ball_data.head())`
 ![image](https://user-images.githubusercontent.com/52828894/151186251-3fb9e728-1a35-43fe-a3d4-f9db23bcab2d.png)
 
 ## 3. To figure out how many null values are present in each column
-### `print(match_data.isnull().sum()`
+### `print(match_data.isnull().sum())`
 ![image](https://user-images.githubusercontent.com/52828894/151187021-369adb0e-be44-43d0-bc7d-3ec237a6ed65.png)
 
 ## 4. To get the total number of rows and columns in a dataset
