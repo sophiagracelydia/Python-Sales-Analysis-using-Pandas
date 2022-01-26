@@ -15,4 +15,6 @@
 ### `print(ball_data.shape)`
 ![image](https://user-images.githubusercontent.com/52828894/151187388-508b79f3-43e8-4137-a021-83fff9995fb2.png)
 
-##  
+## To print the matches played so far
+### `print('Matches played so far: ', match_data.shape[0])`
+![image](https://user-images.githubusercontent.com/52828894/151194614-3fe15188-feae-48da-9916-b1dc2eebab65.png)
