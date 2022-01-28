@@ -107,4 +107,16 @@ print(runs_per_season.head())
 ![image](https://user-images.githubusercontent.com/52828894/151569530-4728805b-1b00-4e10-afd0-c2f153a94e69.png)
 
 ### 14. 
+```python
+toss = match_data['toss_winner'].value_counts()
+ax = plt.axes()
+ax.set(facecolor = "grey")
+sns.set(rc={'figure.figsize':(15, 10)},style = 'darkgrid')
+ax.set_title('No.of toss won by each team', fontsize=15, fontweight="bold")
+sns.barplot(y=toss.index, x=toss, orient='h', palette="icefire", saturation = 1)
+plt.xlabel('# of tosses won')
+plt.ylabel('Teams')
+plt.show()
+```
+![image](https://user-images.githubusercontent.com/52828894/151571657-839fe6cc-f24c-4402-9d9b-38ba9d52edc5.png)
 
