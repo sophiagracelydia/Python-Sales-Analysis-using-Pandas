@@ -18,3 +18,10 @@
 ## 5. To print the matches played so far
 ### `print('Matches played so far: ', match_data.shape[0])`
 ![image](https://user-images.githubusercontent.com/52828894/151194614-3fe15188-feae-48da-9916-b1dc2eebab65.png)
+
+## 6. To print cities in which matches played
+### `print('Cities played at: ', match_data['city'].unique())`
+![image](https://user-images.githubusercontent.com/52828894/151484851-c86e8155-bc50-4d34-86fe-e2ee30774d27.png)
+
+
+
