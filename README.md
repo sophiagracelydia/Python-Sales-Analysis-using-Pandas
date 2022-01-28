@@ -133,6 +133,3 @@ plt.title('Toss decision across seasons', fontsize=15, fontweight="bold")
 plt.show()
 ```
 ![image](https://user-images.githubusercontent.com/52828894/151577281-389ddd36-49fb-4b91-a6e5-e50729f1b3fa.png)
-
-
-
