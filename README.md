@@ -97,6 +97,14 @@ plt.show()
 ```
 ![image](https://user-images.githubusercontent.com/52828894/151566834-8c18a71a-68a6-43b0-add1-b3e965fcefd0.png)
 
+### 13. Runs scored per match in each season
+```python
+runs_per_season = pd.concat([match_per_season, season.iloc[:,1]], axis=1)
+runs_per_season['Runs scored per match'] = runs_per_season['total_runs']/runs_per_season['matches']
+runs_per_season.set_index('Season', inplace=True)
+print(runs_per_season.head())
+```
+![image](https://user-images.githubusercontent.com/52828894/151569530-4728805b-1b00-4e10-afd0-c2f153a94e69.png)
 
-
+### 14. 
 
