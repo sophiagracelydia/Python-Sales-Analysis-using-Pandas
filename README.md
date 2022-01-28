@@ -106,7 +106,7 @@ print(runs_per_season.head())
 ```
 ![image](https://user-images.githubusercontent.com/52828894/151569530-4728805b-1b00-4e10-afd0-c2f153a94e69.png)
 
-### 14. 
+### 14. Number of tosses won per team in each season
 ```python
 toss = match_data['toss_winner'].value_counts()
 ax = plt.axes()
