@@ -90,11 +90,13 @@ print(season_data.head())
 season = season_data.groupby(['Season'])['total_runs'].sum().reset_index()
 p = season.set_index('Season')
 ax = plt.axes()
-ax.set(facecolor="grey")
+ax.set(facecolor= '#E6E6FA')
 sns.lineplot(data= p, palette= "magma")
 plt.title('Total runs in each season', fontsize=12, fontweight= 'bold')
 plt.show()
 ```
+![image](https://user-images.githubusercontent.com/52828894/151566834-8c18a71a-68a6-43b0-add1-b3e965fcefd0.png)
+
 
 
 
