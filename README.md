@@ -66,6 +66,25 @@ print(match_per_season)
 ```
 ![image](https://user-images.githubusercontent.com/52828894/151556698-d9b496a3-8d58-4978-8cad-4be5403b29a1.png)
 
+### 10. Total number of matches played Graph
+```python
+sns.countplot(match_data['Season'])
+plt.xticks(rotation=45, fontsize=10)
+plt.yticks(fontsize=10)
+plt.xlabel('Season', fontsize=10)
+plt.ylabel('Count', fontsize=10)
+plt.title('Total Matches Played in each season', fontsize=10, fontweight='bold')
+plt.show()
+```
+![image](https://user-images.githubusercontent.com/52828894/151560764-e4617eb0-ce75-4c99-b675-3350a70c1e0e.png)
+
+### 11. To merge the match_data and ball_data frames using left join with the column 'id'
+```python
+season_data = match_data[['id','Season']].merge(ball_data, left_on = 'id', right_on = 'id', how = 'left').drop('id',axis =1)
+print(season_data.head())
+```
+![image](https://user-images.githubusercontent.com/52828894/151563185-2e09acd5-4e05-44b3-8059-37883d3cb9d8.png)
+
 
 
 
