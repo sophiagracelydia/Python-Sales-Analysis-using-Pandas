@@ -30,4 +30,10 @@ We have so much data today that it’s used everywhere today, for example, to he
 ### `print('Teams played: ', match_data['team1'].unique())`
 ![image](https://user-images.githubusercontent.com/52828894/151485940-5e195e9a-a5e9-4d65-82b6-d645da906126.png)
 
+## 8.To print a new column named Season
+### `match_data['Season'] = pd.DatetimeIndex(match_data['date']).year`
+### `print(match_data.head(10))`
+![image](https://user-images.githubusercontent.com/52828894/151555324-80e715c7-8e71-42c9-8ca6-5ec314cc18f5.png)
+
+
 
