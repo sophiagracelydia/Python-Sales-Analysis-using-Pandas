@@ -1,3 +1,6 @@
+# IPL Data Analysis Using Python
+We have so much data today that it’s used everywhere today, for example, to help a business understand a client’s needs or to help a dating app find the perfect fit for you. So when we analyze a large amount of data to find relationships between different characteristics, it is nothing more than data analysis. To perform IPL Data Analysis using Python also covers how to analyze and visualize data using top libraries in Python. Python's built-in analytics tools make it a perfect tool for processing complex data.
+
 ## 1. To print the dataset in match_data frame
 ### `print(match_data.head())`
 ![image](https://user-images.githubusercontent.com/52828894/151186133-3eb2c49f-29cd-419b-a46e-68fc4e91096c.png)
@@ -23,5 +26,7 @@
 ### `print('Cities played at: ', match_data['city'].unique())`
 ![image](https://user-images.githubusercontent.com/52828894/151484851-c86e8155-bc50-4d34-86fe-e2ee30774d27.png)
 
-
+## 7. To print the team names
+### `print('Teams played: ', match_data['team1'].unique())`
+![image](https://user-images.githubusercontent.com/52828894/151485940-5e195e9a-a5e9-4d65-82b6-d645da906126.png)
 
