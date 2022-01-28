@@ -120,3 +120,18 @@ plt.show()
 ```
 ![image](https://user-images.githubusercontent.com/52828894/151571657-839fe6cc-f24c-4402-9d9b-38ba9d52edc5.png)
 
+### 15. Toss Decision Across Seasons
+```python
+ax = plt.axes()
+ax.set(facecolor = "grey")
+sns.countplot(x = 'Season', hue = 'toss_decision', data = match_data, palette = "crest", saturation = 1)
+plt.xticks(rotation=90, fontsize=10)
+plt.yticks(fontsize=15)
+plt.xlabel('\n Season', fontsize=15)
+plt.ylabel('Count', fontsize=15)
+plt.title('Toss decision across seasons', fontsize=15, fontweight="bold")
+plt.show()
+```
+![image](https://user-images.githubusercontent.com/52828894/151576323-b43bf468-b5c9-4e2a-ab8a-189a67f7ba5e.png)
+
+
