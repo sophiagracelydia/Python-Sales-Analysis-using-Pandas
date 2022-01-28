@@ -85,6 +85,16 @@ print(season_data.head())
 ```
 ![image](https://user-images.githubusercontent.com/52828894/151563185-2e09acd5-4e05-44b3-8059-37883d3cb9d8.png)
 
+### 12. To visualize the total runs scored in each season
+```python
+season = season_data.groupby(['Season'])['total_runs'].sum().reset_index()
+p = season.set_index('Season')
+ax = plt.axes()
+ax.set(facecolor="grey")
+sns.lineplot(data= p, palette= "magma")
+plt.title('Total runs in each season', fontsize=12, fontweight= 'bold')
+plt.show()
+```
 
 
 
